@@ -1,0 +1,58 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width-device-width, initial-scale=1"/>
+    <title>MAHAINIMUA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href= "style.css"/>
+</head>
+<body>
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><?xml version="1.0" encoding="utf-8"?><svg width="26px" height="26px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke="#000000" stroke-width="2" d="M7,7 L17,17 M7,17 L17,7"/></svg></a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">CONTACT ME</a></li>
+                <li><a href="#">ABOUT</a></li>
+            </ul>
+            <ul>
+                <li class="oleo-script-regular"><a href="#"><h1>MAHAINI MUA</h1></a></li>
+                <li class="mobilehide"><a href="#">HOME</a></li>
+                <li class="mobilehide"><a href="#">CONTACT ME</a></li>
+                <li class="mobilehide"><a href="#">ABOUT</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><?xml version="1.0"?><svg width="26px" height="26px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" id="Editable-line" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><line fill="none" id="XMLID_103_" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="7" x2="25" y1="16" y2="16"/><line fill="none" id="XMLID_102_" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="7" x2="25" y1="25" y2="25"/><line fill="none" id="XMLID_101_" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="7" x2="25" y1="7" y2="7"/></svg></a></li>
+            </ul>
+        </nav>
+    <section class="parent">
+        <h1 class="item gambar3">Adat</h1>
+        <h1 class="item gambar1">Wisuda</div>
+        <h1 class="item gambar2">Tunangan</h1>
+        <h1 class="item gambar6">Modern</h1>
+     </section>
+
+    <section class="parent2">
+        <h1>Kunjungi Galeri Kami</h1>
+        <div class="video"><video autoplay muted>
+            <source src="foto/mahavideo.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+        <script> 
+            function showSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display='flex'
+            }
+            function hideSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display='none'
+            }
+        </script>
+
+</body>            
+</html>   
